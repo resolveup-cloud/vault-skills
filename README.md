@@ -1,6 +1,16 @@
-# Vault private skills
+# Vault skills
 
-This repository contains one small entrypoint skill. It does not contain private skill packages, account data, or credentials. The private skills stay in the authenticated Vault library.
+This public repository contains Vault Desktop discovery stubs and one entrypoint for private Vault skills. It does not contain private skill packages, account data, or credentials. Private packages stay in the authenticated Vault library.
+
+## Install Vault Desktop skills
+
+The public stubs in `skills/` tell an agent when to use a Vault Desktop feature and how to load its version-matched guide from the installed `vault-desktop` CLI. For example:
+
+```sh
+npx --yes skills add https://github.com/resolveup-cloud/vault-skills --skill vault-cli --global
+```
+
+Available stubs include `vault-cli`, `orchestration`, `computer-use`, `vault-linear`, `linear-tickets`, `vault-emulator`, `vault-emulator-android`, `vault-orchestra`, and `vault-per-workspace-env`.
 
 ## Install private skills
 
