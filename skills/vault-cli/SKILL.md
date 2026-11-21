@@ -3,7 +3,7 @@ name: vault-cli
 description: >-
   Operate Vault-managed worktrees, folder contexts, terminals, repos, automations, artifacts,
   skill sharing, worktree comments, and Vault Desktop's embedded browser through the `vault-desktop` CLI. Use
-  when the user says "$vault-cli", "Vault Desktop worktree", "child worktree", "spawn codex/claude in a
+  when the user says "$vault-cli", "Vault Desktop worktree", "child worktree", "spawn codex/claude/agy in a
   worktree", "read/wait/send Vault Desktop terminal", "handoff" / "handover" / "give this to another
   agent", "Vault Desktop browser", "vault-desktop artifacts", or "share skills". Prefer it over raw git
   worktree, ad hoc PTYs, or Computer Use when Vault Desktop state is involved. Use Computer Use only
